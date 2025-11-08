@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "296962158077",
+    "project_id": "basicchatappb6",
+    "storage_bucket": "basicchatappb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296962158077:android:b3073c7ef3124c288e7d94",
+        "android_client_info": {
+          "package_name": "org.freedu.basicchatappb6"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSjE4QCrTLwRZx-CcPkoukFIVsqF6SXkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
