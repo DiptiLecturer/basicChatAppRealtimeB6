@@ -6,19 +6,28 @@ import android.os.Handler
 import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 
 class MainActivity : AppCompatActivity() {
+    //private lateinit var auth: FirebaseAuth
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+        /*  auth = FirebaseAuth.getInstance()
+          val user = auth.currentUser
+          if (user != null) {
+              // already signed in -> go to ChatActivity
+              startActivity(Intent(this, ChatScreenActivity::class.java))
+          } else {
+              // not signed in -> go to SignInActivity
+              startActivity(Intent(this, SignInActivity::class.java))
+          }
+          finish()
+      }*/
 
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, SignInActivity::class.java))
             finish()
         },2000)
-
     }
 }
